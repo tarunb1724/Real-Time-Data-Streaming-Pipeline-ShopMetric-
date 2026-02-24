@@ -15,11 +15,11 @@ SNOWFLAKE_WAREHOUSE = "SHOP_WH"
 # --- 1. CONNECT TO SNOWFLAKE ---
 def get_data():
     conn = snowflake.connector.connect(
-        user="TARUN",
-        password="TarunSnowflake123",
-        account="VFNFKPJ-BAC71951",
-        warehouse="SHOP_WH",
-        database="SHOPMETRIC_DB",
+        user="**",
+        password="**",
+        account="**-**,
+        warehouse="**",
+        database="**",
         schema="PUBLIC"
     )
     
